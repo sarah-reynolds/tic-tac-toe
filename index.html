@@ -7,26 +7,29 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container text-center">
 	<div class="row">
-		<div class="col-sm-12 text-center">
+		<div class="col-sm-12">
 			<h1>TIC-TAC-TOE</h1>
 		</div>
+		<div class="col-sm-12"><button onclick="onePlayerGame()" class="btn btn-default">One Player Game</button>&nbsp;<button onclick="resetGame()" class="btn btn-default">Reset</button>
+		<div class="col-sm-12"></div>
+		<div id="message" class="col-sm-12 margin-top-btm">&nbsp;</div>
 		<div id="board">
 			<div class="row-1 board-row">
-				<button id="A1" class="square" onclick="markSquare(this)">A1</button>
-				<button id="B1" class="square" onclick="markSquare(this)">B1</button>
-				<button id="C1" class="square" onclick="markSquare(this)">C1</button>
+				<button id="A1" class="square" onclick="markSquare(this)"> </button>
+				<button id="B1" class="square" onclick="markSquare(this)"> </button>
+				<button id="C1" class="square" onclick="markSquare(this)"> </button>
 			</div>
 			<div class="row-2 board-row">
-				<button id="A2" class="square" onclick="markSquare(this)">A2</button>
-				<button id="B2" class="square" onclick="markSquare(this)">B2</button>
-				<button id="C2" class="square" onclick="markSquare(this)">C2</button>
+				<button id="A2" class="square" onclick="markSquare(this)"> </button>
+				<button id="B2" class="square" onclick="markSquare(this)"> </button>
+				<button id="C2" class="square" onclick="markSquare(this)"> </button>
 			</div>
 			<div class="row-3 board-row">
-				<button id="A3" class="square" onclick="markSquare(this)">A3</button>
-				<button id="B3" class="square" onclick="markSquare(this)">B3</button>
-				<button id="C3" class="square" onclick="markSquare(this)">C3</button>
+				<button id="A3" class="square" onclick="markSquare(this)"> </button>
+				<button id="B3" class="square" onclick="markSquare(this)"> </button>
+				<button id="C3" class="square" onclick="markSquare(this)"> </button>
 			</div>
 		</div>
 	</div>

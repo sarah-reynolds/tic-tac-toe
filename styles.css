@@ -6,11 +6,21 @@
 }
 
 .square{
-	width: 30%;
+	width: 33%;
+	height: 200px;
 	background-color: white;
 	padding: 30px 0;
 	box-sizing: border-box;
 	float: left;
 	font-size: 80px;
 	border: 2px solid black;
+}
+
+.winning-square{
+	background-color: darkseagreen !important;
+	color: firebrick !important;
+}
+
+.margin-top-btm{
+	margin:  10px 0;
 }
