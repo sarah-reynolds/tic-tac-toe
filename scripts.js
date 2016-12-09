@@ -27,10 +27,11 @@ var winningCombos = [
 ];
 
 	// console.log(winningCombos)
-
 function onePlayerGame(){
 	computerPlayer = true;
-
+}
+function twoPlayerGame(){
+	computerPlayer = false;
 }
 
 function resetGame(){
@@ -45,6 +46,7 @@ function resetGame(){
 	for(var i = 0; i < 9; i++){
 		squareDivs[i].innerHTML = " ";
 		squareDivs[i].className = "square";
+	document.getElementById('reset').style.display = "inline-block";
 	}
 }
 
@@ -118,4 +120,6 @@ function gameOver(whoJustWon, winningCombo){
 		document.getElementById(winningCombo[i]).className += ' winning-square';
 	}
 	someoneWon = true;
+	document.getElementById('reset').style.display = "inline-block";
+
 }
